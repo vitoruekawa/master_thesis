@@ -1,0 +1,142 @@
+\begin{thebibliography}{10}
+
+\bibitem{sdgs}
+U.~Nations, ``The 17 sustainable development goals.''
+  \textsc{url:}~\url{https://sdgs.un.org/goals}, 2015.
+
+\bibitem{COP}
+U.~Nations, ``Conference of the parties.''
+  \textsc{url:}~\url{https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop}.
+
+\bibitem{irena}
+I.~R. E.~A. (IRENA), ``World energy transitions outlook 2023: 1.5°c pathway,''
+  2023.
+
+\bibitem{osti}
+Y.~Lin, J.~H. Eto, B.~B. Johnson, J.~D. Flicker, R.~H. Lasseter, H.~N.
+  Villegas~Pico, G.-S. Seo, B.~J. Pierre, and A.~Ellis, ``Research roadmap on
+  grid-forming inverters,'' tech. rep., National Renewable Energy Lab.(NREL),
+  Golden, CO (United States), 11 2020.
+
+\bibitem{alam2020challenges}
+M.~S. Alam, F.~S. Al-Ismail, A.~Salem, and M.~A. Abido, ``High-level
+  penetration of renewable energy sources into grid utility: Challenges and
+  solutions,'' {\em IEEE Access}, vol.~8, pp.~190277--190299, 2020.
+
+\bibitem{denholm2020inertia}
+P.~Denholm, T.~Mai, R.~W. Kenyon, B.~Kroposki, and M.~O'Malley, ``Inertia and
+  the power grid: A guide without the spin,'' tech. rep., National Renewable
+  Energy Lab.(NREL), Golden, CO (United States), 2020.
+
+\bibitem{ndreko2018grid}
+M.~Ndreko, S.~R{\"u}berg, and W.~Winter, ``Grid forming control for stable
+  power systems with up to 100\% inverter based generation: a paradigm scenario
+  using the ieee 118-bus system,'' in {\em Proceedings of the 17th
+  International Wind Integration Workshop, Stockholm, Sweden}, pp.~16--18,
+  2018.
+
+\bibitem{pattabiraman2018comparison}
+D.~Pattabiraman, R.~H. Lasseter., and T.~M. Jahns, ``Comparison of grid
+  following and grid forming control for a high inverter penetration power
+  system,'' in {\em 2018 IEEE Power \& Energy Society General Meeting (PESGM)},
+  pp.~1--5, 2018.
+
+\bibitem{taylor2021application}
+E.~Taylor, ``Application of advanced grid-scale inverters in the nem,'' tech.
+  rep., Australian Energy Market Operator, 2021.
+
+\bibitem{beck2007vsm}
+H.-P. Beck and R.~Hesse, ``Virtual synchronous machine,'' in {\em 2007 9th
+  International Conference on Electrical Power Quality and Utilisation},
+  pp.~1--6, 2007.
+
+\bibitem{zhang2013vsm}
+C.-H. Zhang, Q.-C. Zhong, J.-S. Meng, X.~Chen, Q.~Huang, S.-h. Chen, and Z.-p.
+  Lv, ``An improved synchronverter model and its dynamic behaviour comparison
+  with synchronous generator,'' in {\em 2nd IET Renewable Power Generation
+  Conference (RPG 2013)}, pp.~1--4, 2013.
+
+\bibitem{zhong2011synchronverter}
+Q.-C. Zhong and G.~Weiss, ``Synchronverters: Inverters that mimic synchronous
+  generators,'' {\em IEEE Transactions on Industrial Electronics}, vol.~58,
+  no.~4, pp.~1259--1267, 2011.
+
+\bibitem{alipoor2015power}
+J.~Alipoor, Y.~Miura, and T.~Ise, ``Power system stabilization using virtual
+  synchronous generator with alternating moment of inertia,'' {\em IEEE Journal
+  of Emerging and Selected Topics in Power Electronics}, vol.~3, no.~2,
+  pp.~451--458, 2015.
+
+\bibitem{chen2020modeling}
+M.~Chen, D.~Zhou, and F.~Blaabjerg, ``Modelling, implementation, and assessment
+  of virtual synchronous generator in power systems,'' {\em Journal of Modern
+  Power Systems and Clean Energy}, vol.~8, no.~3, pp.~399--411, 2020.
+
+\bibitem{visscher2008vsg}
+J.~Driesen and K.~Visscher, ``Virtual synchronous generators,'' in {\em 2008
+  IEEE Power and Energy Society General Meeting - Conversion and Delivery of
+  Electrical Energy in the 21st Century}, pp.~1--3, 2008.
+
+\bibitem{hirase2013grid}
+Y.~Hirase, K.~Abe, K.~Sugimoto, and Y.~Shindo, ``A grid-connected inverter with
+  virtual synchronous generator model of algebraic type,'' {\em Electrical
+  Engineering in Japan}, vol.~184, no.~4, pp.~10--21, 2013.
+
+\bibitem{sakimoto2011stabilization}
+K.~Sakimoto, Y.~Miura, and T.~Ise, ``Stabilization of a power system with a
+  distributed generator by a virtual synchronous generator function,'' in {\em
+  8th International Conference on Power Electronics - ECCE Asia},
+  pp.~1498--1505, 2011.
+
+\bibitem{liu2017vsg}
+J.~Liu, Y.~Miura, H.~Bevrani, and T.~Ise, ``Enhanced virtual synchronous
+  generator control for parallel inverters in microgrids,'' {\em IEEE
+  Transactions on Smart Grid}, vol.~8, no.~5, pp.~2268--2277, 2017.
+
+\bibitem{chen2011improving}
+Y.~Chen, R.~Hesse, D.~Turschner, and H.-P. Beck, ``Improving the grid power
+  quality using virtual synchronous machines,'' in {\em 2011 international
+  conference on power engineering, energy and electrical drives}, pp.~1--6,
+  IEEE, 2011.
+
+\bibitem{chen2012comparison}
+Y.~Chen, R.~Hesse, D.~Turschner, and H.-P. Beck, ``Comparison of methods for
+  implementing virtual synchronous machine on inverters,'' in {\em
+  International conference on renewable energies and power quality}, vol.~1,
+  2012.
+
+\bibitem{shintai2012reactive}
+T.~Shintai, Y.~Miura, and T.~Ise, ``Reactive power control for load sharing
+  with virtual synchronous generator control,'' in {\em Proceedings of The 7th
+  International Power Electronics and Motion Control Conference}, vol.~2,
+  pp.~846--853, 2012.
+
+\bibitem{liu2016studies}
+J.~Liu, {\em Studies on Improving Dynamic Performance of Microgrids by Applying
+  Virtual Synchronous Generator Control to Distributed Generators}.
+\newblock PhD thesis, Osaka University, 2016.
+
+\bibitem{sauer2017power}
+P.~W. Sauer, M.~A. Pai, and J.~H. Chow, {\em Power system dynamics and
+  stability: with synchrophasor measurement and power system toolbox}.
+\newblock John Wiley \& Sons, 2017.
+
+\bibitem{krause2002analysis}
+P.~C. Krause, O.~Wasynczuk, S.~D. Sudhoff, and S.~Pekarek, {\em Analysis of
+  electric machinery and drive systems}, vol.~2.
+\newblock Wiley Online Library, 2002.
+
+\bibitem{siva2022modeling}
+S.~Sivasubramani, ``Synchronous machine modeling.''
+  \textsc{url:}~\url{https://www.iitp.ac.in/~siva/2022/ee549/Synchronous\_Machine\_Modelling.pdf},
+  2022.
+
+\bibitem{kundur2022power}
+P.~S. Kundur and O.~P. Malik, {\em Power System Stability and Control}.
+\newblock McGraw Hill, 2022.
+
+\bibitem{purcell2013magnetism}
+E.~M. Purcell and D.~J. Morin, {\em Electricity and Magnetism}.
+\newblock Cambridge University Press, 2013.
+
+\end{thebibliography}

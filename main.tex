@@ -1,5 +1,4 @@
 \documentclass[master,final,12pt]{iscs-thesis}
-% 論文の種類とフォントサイズをオプションに
 %-------------------
 \etitle{Comparative Analysis Between Synchronous Generators and Virtual Synchronous Machine Grid-Forming Inverter} 
 \jtitle{} %
@@ -8,19 +7,24 @@
 \esupervisor{}
 \jsupervisor{}
 \date{\today}
-
+\input{imports}
 %-------------------
 \begin{document}
 
-\input{abstract}
+\input{chapters/abstract}
 \maketitle
-\input{acknowledge}
+\input{chapters/acknowledge}
 
 \frontmatter 
 \tableofcontents 
 %-------------------
 \mainmatter
-\input{introduction}
+\input{chapters/introduction}
+\newpage
+\input{chapters/vsg-overview}
+\begin{appendices}
+    \input{chapters/synchronous-generators}
+\end{appendices}
 %-------------------
 \bibliography{references} %
 \bibliographystyle{ieeetr}

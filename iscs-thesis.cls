@@ -557,12 +557,12 @@
       the School of Engineering of Tokyo Institute of Technology}
   \ifist@gradiss
     \newcommand\@degreename{%
-      the Degree of \thesisgrade \ of Engineering\\
+      the Degree of \thesisgrade \ of Science\\
       in Systems and Control Engineering}
   \else
     \newcommand\@degreename{%
       the Degree of \thesisgrade\
-      of Engineering\\
+      of Science\\
       in Systems and Control Engineering}
   \fi
 \fi
