@@ -1,4 +1,4 @@
-\chapter{Overview of Main VSG Topologies}
+\chapter{Overview of Main VSM Topologies}\label{chap:vsm-overview}
 
 With the increasing penetration of Inverter-Based Resources (IBRs) and the
 diminished involvement of Synchronous Generators (SGs) in energy generation,
@@ -9,22 +9,23 @@ frequency (RoCoF), thereby affecting power quality and potentially causing the
 tripping of generators \cite{alipoor2015power}.
 
 One of the most promising solutions to address these challenges is the
-implementation of Virtual Synchronous Generators (VSGs). A VSG is a control
+implementation of Virtual Synchronous Machines (VSMs). A VSM is a control
 technique applied to the switching patterns of voltage source converters (VSCs),
 aiming to replicate the dynamic behavior of SGs.
 
 % TODO: are they really active? Change the wording to avoid problem
-Among the most notable research groups working on VSGs are: the VSYNC project
+% It is necessary to mention/include the synchronverter and the cascaded VSM in this paragraph
+Among the most notable research groups working on VSMs are: the VSYNC project
 \cite{visscher2008vsg} under the 6th European Research Framework program, the
 Virtual Synchronous Machine (VISMA) project \cite{beck2007vsm} at the Institute
 of Electrical Power Engineering (IEPE) of Clausthal University of Technology in
-Germany, the VSG research team at Kawasaki Heavy Industries (KHIs)
+Germany, the VSM research team at Kawasaki Heavy Industries (KHIs)
 \cite{hirase2013grid}, and the Laboratory for Power Electronics and Electrical
 Drives (formerly ISE Lab) at Osaka University \cite{alipoor2015power,
 sakimoto2011stabilization, liu2017vsg}. In this chapter, we provide an overview
 and comparison of the topologies developed by these research groups.
 
-\section{VSYNC Project's VSG Topology}
+\section{VSYNC Project's VSM Topology}\label{sec:VSYNC}
 
 The VSYNC project, initiated under the 6th European Research Framework program,
 represents a pioneering effort in implementing virtual inertia control for
@@ -59,26 +60,27 @@ so that the overall system can emulate the SGs inertial response.
     \end{aligned}
 \end{equation*}
 
-Overall, the VSYNC control scheme is a current-source, grid-supporting control
+Overall, the VSYNC control scheme is a current-source based grid-supporting control
 mechanism, employing a current control loop at the output terminal and using a
 PLL to detect grid frequency and provide an angle reference for the dq
 transformation. It is important to note that the use of a PLL can negatively
 impact control performance under weak AC systems. Furthermore, the VSYNC control
 scheme incorporates only the SG swing equation.
 
-\section{IEPE's VSG Topology}
+\section{IEPE's VSM Topology}\label{sec:VISMA}
 
-The IEPE group has proposed a VSG topology called Virtual Synchronous Machine
-(VISMA), which was first implemented as a current-source-based method on a
-hysteresis controlled inverter \cite{beck2007vsm,chen2011improving}, and later a
-voltage-source-based method was proposed to expand its applicability to PWM
-controlled inverters, which is more commonly used in the market
-\cite{chen2012comparison}. The first is refered as VISMA-Method 1 and the second
-is refered as VISMA-Method 2 and their overall control scheme are illustrated in
-the following figures.
+The IEPE group has proposed a VSM topology named Virtual Synchronous Machine
+(VISMA), which initially utilized a current-source-based approach on a
+hysteresis controlled inverter~\cite{beck2007vsm,chen2011improving}.
+Subsequently, a voltage-source-based method was suggested to broaden its
+applicability to PWM controlled inverters, more prevalent in the
+market~\cite{chen2012comparison}. These are referred to as VISMA-Method 1 and
+VISMA-Method 2, respectively, with their control schemes depicted in subsequent
+figures.
+
 
 \newpage
-\begin{figure}[h!]
+\begin{figure}[ht!]
     \centering
     \begin{subfigure}[b]{\textwidth}
         \centering
@@ -97,7 +99,7 @@ the following figures.
     \caption{VISMA-Method 1 (current-source-based control) \cite{chen2012comparison}. (a) Overall control scheme. (b) Model of synchronous machine 1.}
 \end{figure}
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
     \centering
     \begin{subfigure}[b]{\textwidth}
         \centering
@@ -113,7 +115,7 @@ the following figures.
         \label{fig:VISMA2block}
     \end{subfigure}
     \label{fig:VISMA2}
-    \caption{VISMA-Method 2 (voltage-source-based control) \cite{chen2012comparison}. (a) Overall control scheme. (b) Model of synchronous machine 1.}
+    \caption{VISMA-Method 2 (voltage-source-based control) \cite{chen2012comparison}.\\ (a) Overall control scheme. (b) Model of synchronous machine 2.}
 \end{figure}
 
 \newpage
@@ -185,15 +187,20 @@ quantities). However, the damper and excitation windings are not taken into
 consideration, and the transient and sub-transient dynamics are ignored.
 Moreover, this model does not consider possible saliency effects of the rotor.
 
-\section{KHIs' VSG Topology}
-KHI has proposed a current-source-based VSG topology in the $dq$-coordinate
+Finally, it is important to highlight that the voltage-source-based VISMA
+control can be considered as an upgraded grid-forming control, and the
+current-source-based VISMA control can be considered as an upgraded grid-feeding
+control.
+
+\section{KHIs' VSM Topology}\label{sec:KHI}
+KHI has proposed a current-source-based VSM topology in the $dq$-coordinate
 frame\cite{hirase2013grid}, which control diagram is illustrated in the
 following image.
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
     \centering
     \includegraphics[width=14cm]{images/KHI.png}
-    \caption{Control diagram of the VSG control developed by KHI\cite{hirase2013grid}.}
+    \caption{Control diagram of the VSM control developed by KHI\cite{hirase2013grid}.}
     \label{fig:KHI}
 \end{figure}
 
@@ -216,18 +223,19 @@ regulation.
 
 The outputs from the virtual governor and AVR are then used to compute the
 reference current, which then passes through a current feedback loop to generate
-the reference signal for the PWM modulation.
+the reference signal for the PWM modulation. Therefore, the VSM control by KHI
+is a current-source-based grid-supporting control.
 
-\section{ISE Lab's VSG Topology}
+\section{ISE Lab's VSM Topology}
 The Laboratory for Power Electronics and Electrical Drives (formely ISE Lab) at
 Osaka University, which consists in emulating the SG swing equation
 \cite{sakimoto2011stabilization,shintai2012reactive}. The following image
-describes the block diagram of the Ise Lab's VSG topology.
+describes the block diagram of the Ise Lab's VSM topology.
 
-\begin{figure}[h!]
+\begin{figure}[ht!]
     \centering
     \includegraphics[width=14cm]{images/ISE.png}
-    \caption{Control diagram of the VSG control developed by ISE Lab\cite{liu2016studies}.}
+    \caption{Control diagram of the VSM control developed by ISE Lab\cite{liu2016studies}.}
     \label{fig:ISE}
 \end{figure}
 
@@ -242,20 +250,210 @@ which is used to compute the virtual rotor frequency through the swing equation:
 
 The rotor frequency is used as a reference for the governor model and the PWM
 inverter. Both the governor model and the Q Droop block are droop controllers
-creating linear droop control law between active power and frequency, and
-between reactive power and voltage, respectively.
+creating linear droops between active power and frequency, and between reactive
+power and voltage, respectively.
 
 It is important to highlight that no inner current or voltage loop is adopted in
 this control scheme, so that the filter reactance is analogous to the stator
-reactance of the VSG. Moreover, this VSG control can be classified as a
-voltage-source-based grid-forming control.
+reactance of the VSM. Moreover, this VSM control can be classified as a
+voltage-source-based grid-supporting control.
 
-However, 
+\section{Synchronverter}\label{sec:synchronverter}
 
-\section{Synchronverter}
+Another well-known VSM topology is the Synchronverter, which was proposed in
+2009 by Qing-Chang Zhong and George Weiss. Initially, this topology was proposed
+for a three-phase inverter operated using PWM and LC filters to reduce the
+switching ripples \cite{zhong2011synchronverter}. The following figure
+illustrates the overwall topology and control scheme for the Synchronverter.
 
+\begin{figure}[ht!]
+    \centering
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=12cm]{images/synchronverter_topology.png}
+        \caption{}
+        \label{fig:synchronverter_topology}
+    \end{subfigure}
 
-% Classification according to Current Controlled or Voltage Controlled
-% Explanation of main topologies of VSG
-% VSG used in this thesis
-% Comparison of topologies in terms of reference model
+    \begin{subfigure}[b]{\textwidth}
+        \centering
+        \includegraphics[width=8cm]{images/synchronverter_control.png}
+        \caption{}
+        \label{fig:synchronverter_control}
+    \end{subfigure}
+    \label{fig:synchronverter}
+    \caption{Synchronverter (a) topology and (b) control scheme \cite{zhong2014self}}
+\end{figure}
+
+The modeling of the Synchronverter is based on the simplification of the SG
+model by neglecting the damper windings in the rotor, and considering a round
+rotor. Therefore, only an exciter winding in the rotor, and the three windings
+in the stator are taken into consideration.
+
+The system is designed based on the similarities between the dynamics of the
+output filter of the converter and the stator windings of a SG. In other words,
+so that the inverter's output filter dynamics match the dynamics of a SG.
+Therefore, $L_s$ and $R_s$ in Figure \ref{fig:synchronverter_topology} are
+equivalent to the reactance and impedance of the virtual generator, and the
+capacitor voltage $(v_a, v_b, v_c)$ is equivalent to the stator terminal
+voltage. The relationship between terminal current $i = (i_a, i_b, i_c)$ and
+voltage $v = (v_a, v_b, v_c)$ is given by the follwing equation.
+
+\begin{equation*}
+    v = -R_s i - L_s \frac{di}{dt} + e
+\end{equation*}
+
+Therefore, the converter output voltage $e = (e_a, e_b, e_c)$ is controlled such
+that it follows the same dynamics of a SG's back electromotive force (EMF):
+
+\begin{equation*}
+    e = M_f i_f \dot{\theta} \begin{bmatrix} \sin{(\theta)} \\ \sin{(\theta - \frac{2}{3}\pi)} \\ \sin{(\theta + \frac{2}{3}\pi)}\end{bmatrix} - M_f \frac{di_f}{dt} \begin{bmatrix} \cos{(\theta)} \\ \cos{(\theta - \frac{2}{3}\pi)} \\ \cos{(\theta + \frac{2}{3}\pi)}\end{bmatrix}
+\end{equation*}
+
+\noindent where $M_f$ is the mutual inductance between the virtual stator and
+rotor, $i_f$ is the field excitation current, and $\theta$ is the virtual rotor
+angle is the virtual rotor angle. Here, $i_f$ is used as an adjustable constant
+input, making the derivative term to become zero:
+
+\begin{equation*}
+    e = M_f i_f \dot{\theta} \begin{bmatrix} \sin{(\theta)} \\ \sin{(\theta - \frac{2}{3}\pi)} \\ \sin{(\theta + \frac{2}{3}\pi)}\end{bmatrix}
+\end{equation*}
+
+On the other hand, $\theta$ and $M_f i_f$ are calculated according to active and
+reactive power droop laws, respectively, as it can be seen in Figure
+\ref{fig:synchronverter_control}. The active $P$ and reactive $Q$ powers are
+calculated in the switching stage, corresponding to the multiplication between
+$e$ and $i$.
+
+Since the back EMF is used as a reference voltage for PWM modulation, the
+synchronverter is a voltage-source-based grid-supporting control method, and due
+to the lack of current control gives rise to a potential issue related to
+excessive high inrush fault current\cite{shuai2017characteristics}.
+
+\section{Cascaded Virtual Synchronous Machine}\label{sec:CSVSM}
+
+In 2013, a new VSM implementation approach was proposed by Salvatore D'Arco, Jon
+Are Suul and Olav B. Fosso\cite{darco2013control,darco2014small,darco2015vsm}.
+In this thesis we call this implementation as Cascaded Virtual Synchronous
+Machine (CVSM), due to the fact that it includes two cascaded PI controls for
+voltage and current regulation. It is a voltage-source-based grid-supporting
+control method, and an overview of the system configuration and control scheme
+is illustrated in the Figure \ref{fig:CVSM}.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=12cm]{images/CVSM.png}
+    \caption{CVSM system topology and control scheme\cite{darco2015vsm}.}
+    \label{fig:CVSM}
+\end{figure}
+
+The system is modeled in the $dq-$frame, and the synchronization is realized by
+the power balance of the VSM swing equation. In other words, the coordinate
+transformations use the internal angle $\omega_{VSM}$ corresponding to the angle
+position of the virtual rotor. The presence of a PLL therefore does not
+introduce any instability problem.
+
+The Virtual Inertia and Power Control block corresponds to the swing equation
+emulation, with the damping power/torque being proportional to the difference
+between  the virtual rotor frequency and the grid frequency, thus the need of a
+PLL for estimation of the grid frequency. It is important to highlight that the 
+damping power/torque is defined slightly differently from traditional SG
+modeling theory \cite{sauer2017power, kundur2022power}. Figure
+\ref{fig:CVSM_power} illustrates the control scheme of the Virtual Inertia and
+Power Control block.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=12cm]{images/CVSM_power.png}
+    \caption{Control scheme of the Virtual Inertia and Power Control block\cite{darco2015vsm}.}
+    \label{fig:CVSM_power}
+\end{figure}
+
+On the other hand, the reactive power control is implemented in a similar manner
+as the other VSM implementations, consisting in a droop law for the reactive
+power. The resulting signal is the voltage amplitude reference $\hat{v}^r*$,
+which is passed through a virtual impedance before it is used as a reference for
+the PWM modulation. This virtual impedance is analogous to the SG stator
+impedance and it is used for reducing the sensitivity of the VSM to small
+disturbances.
+
+Finally, the resulting voltage reference vector $v_0*$ is passed through a
+cascaded PI controller with feedforward terms to provide decoupling of the $dq$
+terms and allow for current and voltage limitation. Moreover, an additional
+voltage reference voltage magnitude corresponding to an active damping technique
+is added to the output of of the PI current controller before being used for PWM
+modulation. The active damping is used for supressing oscillations in the LC
+filter. The overall cascaded PI controller is illustrated in the Figure
+\ref{fig:CVSM_cascaded}.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=12cm]{images/CVSM_cascaded.png}
+    \caption{Virtual impedance and cascaded PI voltage control block scheme\cite{darco2015vsm}.}
+    \label{fig:CVSM_cascaded}
+\end{figure}
+
+\newpage
+\section{Summary of VSM Topologies}
+
+The following table summarizes the VSM topologies discussed in this Chapter
+according to characteristics that can be compared with SGs, such as control
+method, consideration of virtual damper windings, virtual impedance, need for
+PLL and overcurrent protection. 
+
+\begin{table}[ht!]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{llllll}
+        \toprule
+        \textbf{Topology} & \textbf{Control method} & \textbf{Virtual damper windings} & \textbf{Has virtual impedance?} & \textbf{Need PLL?} & \textbf{Has overcurrent protection?} \\ 
+        \midrule
+        VSYNC            & current-source-based & 0 & No & Yes & Yes  \\
+        VISMA-Method 1   & current-source-based & 0 & Yes & No & No  \\
+        VISMA-Method 2   & voltage-source-based & 0 & Yes & No & No \\
+        KHI              & current-source-based & 0 & Yes & Yes & Yes  \\
+        ISE              & voltage-source-based & 0 & No & Yes & No \\
+        Synchronverter   & voltage-source-based & 0 & No & No & Yes \\
+        CVSM             & voltage-source-based & 0 & Yes & Yes & Yes  \\
+        \bottomrule
+        \end{tabular}
+    }
+    \caption{\centering Summary of VSM topologies.}
+    \label{tab:topologies_summary}
+\end{table}
+
+% TODO: change Chapter 1 here to the subsection in the introduction explaining
+% the control methods
+As established in Chapter 1, current-source-based grid-supporting control
+methods lack the capability to provide voltage support in weak grids with a high
+presence of Inverter-Based Resources (IBRs). Consequently, this thesis will not
+consider current-source-based grid-support control topologies.
+
+Virtual impedance emulates the synchronous impedance behavior of traditional SGs
+and is instrumental in shaping system dynamics. Employing a PLL can adversely
+affect control performance in weak AC systems; therefore, PLL-free topologies
+are preferable. Furthermore, considering the susceptibility of power converters
+to high current levels, overcurrent protection is a critical safety feature.
+
+According to Table \ref{tab:topologies_summary}, the CVSM topology meets all the
+stated requirements. Although it typically requires a PLL, it is implemented not
+for synchronization, and some authors have implemented this topology without the
+use of PLL \cite{tayyebi2020power}. Notably, this topology does not inherently
+include virtual damper windings.
+
+As discussed in Chapter 1, damper windings in SGs are essential for damping
+oscillations and suppressing hunting, enhancing system stability
+\cite{kundur2022power,sauer2017power}. The primary distinction between low-order
+SG models (like the classical and 1-axis models) and high-order models (such as
+the 2-axis and Park's models) lies in the inclusion of damper windings. This
+feature has been incorporated into the CVSM topology in recent studies
+\cite{ma2017vsg,zhang2013vsm}.
+
+This thesis will adopt the CVSM topology with the integration of virtual damper
+windings, following the approach used by \cite{ma2017vsg,zhang2013vsm}. This
+will facilitate a comprehensive comparison of the dynamic characteristics
+between SGs and VSMs of varying orders and assess the significance of including
+virtual damper windings.
+
+% TODO: refer to the section in the introduction discussing about damper
+% windings of synchronous generators.

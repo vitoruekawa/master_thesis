@@ -1,6 +1,6 @@
 % TODO: review/complement the introduction, it is very important for a
 % thesis/paper
-\chapter{Introduction}
+\chapter{Introduction}\label{chap:introduction}
 \section{Background}
 
 The growing demand for energy and the challenges related to climate change
@@ -93,7 +93,7 @@ The subsequent figure elucidates the primary distinctions between GFMI and GFLI.
 One of the most popular GFMI control approaches is based on introducing the SG
 dynamic models into the controllers of the inverter, enabling it to operate like
 a rotating electrical machine. This control approach is known as Virtual
-Synchronous Generator (VSG), and implementations of different orders have been
+Synchronous Machine (VSM), and implementations of different orders have been
 reported in the literature, ranging from detailed electromechanical models
 \cite{beck2007vsm}\cite{zhang2013vsm} to simplified swing dynamics
 \cite{zhong2011synchronverter}\cite{alipoor2015power}. However, there is still
@@ -102,17 +102,17 @@ and models of intermediate complexity, such as the 1-axis (flux-decay) model,
 have not been reported yet \cite{chen2020modeling}.
 
 \section{Objectives}
-This thesis focuses on the modeling, simulation, and analysis of VSGs of
+This thesis focuses on the modeling, simulation, and analysis of VSMs of
 different orders in a multi-machine power system with multiple SGs. The main
 goals of this project are to evaluate the necessity of detailed
-electromechanical models when implementing VSGs and to propose a VSG model
+electromechanical models when implementing VSMs and to propose a VSM model
 equivalent to the 1-axis (flux-decay) SG model. The entire work is divided into
 the following steps:
 
 \begin{enumerate}
     \item Study of the modeling and simulation of voltage source power converters;
-    \item Study of the multiple implementations of VSGs; 
-    \item Comparison between VSGs of multiple orders and 2-axis (subtransient)
+    \item Study of the multiple implementations of VSMs; 
+    \item Comparison between VSMs of multiple orders and 2-axis (subtransient)
     model of SG in terms of frequency deviation and output voltage and power
     under load increase and ground fault.
 \end{enumerate}
@@ -125,15 +125,15 @@ the following steps:
 % connected with both real power and reactive power load
 % • Investigate the designed control system with different types of load to determine
 % how it plays a role in system stability in the presence of various disturbances.
-% • Review the existing methodology on VSG, analyze system design and operation,
+% • Review the existing methodology on VSM, analyze system design and operation,
 % and explore the scope and limitation.
 
 % TODO: structure of the thesis might need to be revised
 \section{Strcture of the Thesis}
 The remainder of this thesis is organized as follows. In Chapter 2, we present
-an overview of the main implementations of VSGs in the literature, from detailed
+an overview of the main implementations of VSMs in the literature, from detailed
 electromechanical models to simplified swing dynamics. In Chapter 3, we present
 a detailed mathematical modeling of voltage source converters, and their
-controllers enabling the VSGs dynamics. Chapter 4 presents the. In the Appendix,
+controllers enabling the VSMs dynamics. Chapter 4 presents the. In the Appendix,
 we describe the modeling and simulation methods of main power system components
 such as SMs, loads and transmission lines.

@@ -116,24 +116,83 @@ J.~Liu, {\em Studies on Improving Dynamic Performance of Microgrids by Applying
   Virtual Synchronous Generator Control to Distributed Generators}.
 \newblock PhD thesis, Osaka University, 2016.
 
+\bibitem{zhong2014self}
+Q.-C. Zhong, P.-L. Nguyen, Z.~Ma, and W.~Sheng, ``Self-synchronized
+  synchronverters: Inverters without a dedicated synchronization unit,'' {\em
+  IEEE Transactions on Power Electronics}, vol.~29, no.~2, pp.~617--630, 2014.
+
+\bibitem{shuai2017characteristics}
+Z.~Shuai, W.~Huang, C.~Shen, J.~Ge, and Z.~J. Shen, ``Characteristics and
+  restraining method of fast transient inrush fault currents in
+  synchronverters,'' {\em IEEE Transactions on Industrial Electronics},
+  vol.~64, no.~9, pp.~7487--7497, 2017.
+
+\bibitem{darco2013control}
+S.~D'Arco, J.~A. Suul, and O.~B. Fosso, ``Control system tuning and stability
+  analysis of virtual synchronous machines,'' in {\em 2013 IEEE Energy
+  Conversion Congress and Exposition}, pp.~2664--2671, 2013.
+
+\bibitem{darco2014small}
+S.~D'Arco, J.~A. Suul, and O.~B. Fosso, ``Small-signal modelling and parametric
+  sensitivity of a virtual synchronous machine,'' in {\em 2014 Power Systems
+  Computation Conference}, pp.~1--9, 2014.
+
+\bibitem{darco2015vsm}
+S.~D'Arco, J.~A. Suul, and O.~B. Fosso, ``A virtual synchronous machine
+  implementation for distributed control of power converters in smartgrids,''
+  {\em Electric Power Systems Research}, vol.~122, pp.~180--197, 2015.
+
 \bibitem{sauer2017power}
 P.~W. Sauer, M.~A. Pai, and J.~H. Chow, {\em Power system dynamics and
   stability: with synchrophasor measurement and power system toolbox}.
 \newblock John Wiley \& Sons, 2017.
+
+\bibitem{kundur2022power}
+P.~S. Kundur and O.~P. Malik, {\em Power System Stability and Control}.
+\newblock McGraw Hill, 2022.
+
+\bibitem{tayyebi2020power}
+A.~Tayyebi, D.~Groß, A.~Anta, F.~Kupzog, and F.~Dörfler, ``Frequency
+  stability of synchronous machines and grid-forming power converters,'' {\em
+  IEEE Journal of Emerging and Selected Topics in Power Electronics}, vol.~8,
+  no.~2, pp.~1004--1018, 2020.
+
+\bibitem{ma2017vsg}
+Y.~Ma, W.~Cao, L.~Yang, F.~Wang, and L.~M. Tolbert, ``Virtual synchronous
+  generator control of full converter wind turbines with short-term energy
+  storage,'' {\em IEEE Transactions on Industrial Electronics}, vol.~64,
+  no.~11, pp.~8821--8831, 2017.
 
 \bibitem{krause2002analysis}
 P.~C. Krause, O.~Wasynczuk, S.~D. Sudhoff, and S.~Pekarek, {\em Analysis of
   electric machinery and drive systems}, vol.~2.
 \newblock Wiley Online Library, 2002.
 
+\bibitem{yazdani2010voltage}
+A.~Yazdani and R.~Iravani, {\em Voltage-sourced converters in power systems:
+  modeling, control, and applications}.
+\newblock John Wiley \& Sons, 2010.
+
+\bibitem{zhang2013improved}
+C.-H. Zhang, Q.-C. Zhong, J.-S. Meng, X.~Chen, Q.~Huang, S.-h. Chen, and Z.-p.
+  Lv, ``An improved synchronverter model and its dynamic behaviour comparison
+  with synchronous generator,'' in {\em 2nd IET Renewable Power Generation
+  Conference (RPG 2013)}, pp.~1--4, 2013.
+
+\bibitem{knazkins2004stability}
+V.~Knazkins, {\em Stability of power systems with large amounts of distributed
+  generation}.
+\newblock PhD thesis, Elektrotekniska system, 2004.
+
+\bibitem{blaabjerg2018control}
+F.~Blaabjerg, {\em Control of Power Electronic Converters and Systems: Volume
+  2}, vol.~2.
+\newblock Academic Press, 2018.
+
 \bibitem{siva2022modeling}
 S.~Sivasubramani, ``Synchronous machine modeling.''
   \textsc{url:}~\url{https://www.iitp.ac.in/~siva/2022/ee549/Synchronous\_Machine\_Modelling.pdf},
   2022.
-
-\bibitem{kundur2022power}
-P.~S. Kundur and O.~P. Malik, {\em Power System Stability and Control}.
-\newblock McGraw Hill, 2022.
 
 \bibitem{purcell2013magnetism}
 E.~M. Purcell and D.~J. Morin, {\em Electricity and Magnetism}.
