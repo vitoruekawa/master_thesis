@@ -1,0 +1,41 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objectives}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Strcture of the Thesis}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Overview of Main VSM Topologies}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Control Methods of Power Converters}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}VSYNC Project's VSM Topology}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}IEPE's VSM Topology}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}KHIs' VSM Topology}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}ISE Lab's VSM Topology}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Synchronverter}{11}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Cascaded Virtual Synchronous Machine}{12}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Summary of VSM Topologies}{14}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Mathematical Modeling of VSM}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Overall Sytem Topology and Control Scheme}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Mathematical Modeling of VSC}{17}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}PWM Modulation}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Park's Transformation (\textit {dq0}-Transformation)}{19}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Averaged Model of VSC}{20}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Mathematical Modeling of VSM}{22}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Mathematical Modeling of Cascaded PI Controller}{25}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Simulation Results}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}System under study}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Simulation scenarios}{28}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Simulation of Load Increase}{29}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Simulation of Disconnection}{35}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Effect of Subtransient Reactances}{40}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{43}{chapter.5}%
+\contentsline {chapter}{Appendices}{45}{section*.48}%
+\contentsline {chapter}{\numberline {A}Synchronous Generators}{46}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Modeling of Synchronous Generators}{46}{section.1.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}General Structure of Synchronous Generators}{46}{subsection.1.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Linear Magnetic Circuit}{48}{subsection.1.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Park's Transformation (\textit {dq0}-transformation)}{49}{subsection.1.A.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Per-Unit System}{50}{subsection.1.A.1.4}%
+\contentsline {subsection}{\numberline {A.1.5}Park's Model (Detailed Model)}{51}{subsection.1.A.1.5}%
+\contentsline {subsection}{\numberline {A.1.6}2-axis Model (Subtransient Model)}{52}{subsection.1.A.1.6}%
+\contentsline {subsection}{\numberline {A.1.7}1-axis Model (Flux-Decay Model)}{53}{subsection.1.A.1.7}%
+\contentsline {subsection}{\numberline {A.1.8}Classical Model}{53}{subsection.1.A.1.8}%
+\contentsline {section}{\numberline {A.2}Modeling of Exciter and Automatic Voltage Regulator (AVR)}{54}{section.1.A.2}%
+\contentsline {chapter}{References}{55}{appendix*.50}%

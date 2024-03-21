@@ -1,0 +1,40 @@
+\documentclass[master,final,12pt]{iscs-thesis}
+%-------------------
+\etitle{Comparative Analysis Between Synchronous Generators and Virtual Synchronous Machine Grid-Forming Inverter} 
+\jtitle{} %
+\eauthor{UEKAWA Vitor Eiti}
+\jauthor{}
+\esupervisor{}
+\jsupervisor{}
+\date{\today}
+\input{imports}
+%-------------------
+\begin{document}
+
+\input{chapters/abstract}
+\maketitle
+\input{chapters/acknowledge}
+
+\frontmatter 
+\tableofcontents 
+\listoffigures
+\listoftables
+%-------------------
+\mainmatter
+\input{chapters/introduction}
+\newpage
+\input{chapters/vsg-overview}
+\newpage
+\input{chapters/vsm-modeling}
+\newpage
+\input{chapters/simulations}
+\newpage
+\input{chapters/conclusion}
+\begin{appendices}
+    \input{chapters/synchronous-generators}
+\end{appendices}
+%-------------------
+\bibliography{references} %
+\bibliographystyle{ieeetr}
+%-------------------
+\end{document}

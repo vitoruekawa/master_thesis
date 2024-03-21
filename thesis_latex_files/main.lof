@@ -1,0 +1,46 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Present and future/projected power grids\cite {osti}.\relax }}{1}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Differences between grid-following and grid-forming \cite {taylor2021application}.\relax }}{2}{figure.caption.5}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Control methods for power converters. (a) Grid-forming control, (b) Grid-following control, (c) Voltage-source-based grid-supporting control and (d) Current-source-based grid-supporting control \cite {paquette2015virtual}.\relax }}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Overall control scheme of the VSYNC topology.\relax }}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces VISMA-Method 1 (current-source-based control) \cite {chen2012comparison}. (a) Overall control scheme. (b) Model of synchronous machine 1.\relax }}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces VISMA-Method 2 (voltage-source-based control) \cite {chen2012comparison}. (a) Overall control scheme. (b) Model of synchronous machine 2.\relax }}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Control diagram of the VSM control developed by KHI\cite {hirase2013grid}.\relax }}{9}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Control diagram of the VSM control developed by ISE Lab\cite {liu2016studies}.\relax }}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Synchronverter (a) topology and (b) control scheme \cite {zhong2014self}\relax }}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces CVSM system topology and control scheme\cite {darco2015vsm}.\relax }}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Control scheme of the Virtual Inertia and Power Control block\cite {darco2015vsm}.\relax }}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Virtual impedance and cascaded PI voltage control block scheme\cite {darco2015vsm}.\relax }}{14}{figure.caption.15}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of the system topology and control scheme.\relax }}{17}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Overview of the system topology and control scheme.\relax }}{17}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Half-bridge converter.\relax }}{18}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces PWM switching strategy: (a) carrier and modulating waveforms, (b) switching function of switch $Q_1$ and (c) switching function of switch $Q_4$ \cite {yazdani2010voltage}.\relax }}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Different representations of \textit {dq0} frame.\relax }}{20}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Subsystem of the SG Model block.\relax }}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Schema block of the swing equation.\relax }}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Schema block of the AVR.\relax }}{23}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Schema block of electromagnetic equations of the classical model.\relax }}{23}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Schema block of electromagnetic equations of the 1-axis model.\relax }}{24}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Schema block of electromagnetic equations of the 2-axis model.\relax }}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Block diagram of the cascaded PI controller.\relax }}{26}{figure.caption.28}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces WECC-9 bus system \cite {sauer2017power}.\relax }}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Transient reponse to load increase of the frequency in the generator buses of the four scenarios.\relax }}{31}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Transient reponse to load increase: voltage magnitude in the generator buses of the four scenarios.\relax }}{32}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Transient reponse to load increase: current magnitude in the generator buses of the four scenarios.\relax }}{33}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Transient reponse to load increase: active power in the generator buses of the four scenarios.\relax }}{34}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Transient reponse to load increase: reactive power in the generator buses of the four scenarios.\relax }}{35}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Transient reponse to disconnection: frequency in the generator buses of the four scenarios.\relax }}{36}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Transient reponse to disconnection: voltage magnitude in the generator buses of the four scenarios.\relax }}{37}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Transient reponse to disconnection: current magnitude in the generator buses of the four scenarios.\relax }}{38}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Transient reponse to disconnection: active power in the generator buses of the four scenarios.\relax }}{39}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Transient reponse to disconnection: reactive power in the generator buses of the four scenarios.\relax }}{40}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Frequency at bus 2 for different values of $X_q'$\relax }}{41}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Voltage magnitude at bus 2 for different values of $X_q'$\relax }}{41}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Frequency at bus 2 for different values of $X_d'$\relax }}{42}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Voltage magnitude at bus 2 for different values of $X_d'$\relax }}{42}{figure.caption.47}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Schematic diagram of a three-phase synchronous generator \cite {sauer2017power}.\relax }}{47}{figure.caption.49}%

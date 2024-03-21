@@ -1,0 +1,40 @@
+\begin{eabstract}
+
+In recent years, inverter-based resources (IBR) with renewable energy sources
+(RES), such as solar and wind energy, have been developed as a solution for the
+growing demand for energy and the challenges related to climate change. However,
+as the penetration of IBRs increases and the participation of traditional large
+and bulky synchronous generators in the energy generation decreases, many
+research challenges arises. Among them, the loss of system inertia is one of the
+most detrimental to power systems.
+
+This thesis explores the grid-forming control strategy as a viable solution to
+this challenge, with a focus on the Virtual Synchronous Machine (VSM) concept.
+The VSM is designed to mimic the dynamic behavior of synchronous generators,
+thereby contributing to system inertia and enhancing stability.
+
+A comprehensive review of VSM topologies and control strategies is conducted,
+and the cascaded virtual synchronous machine (CVSM) topology is identified for
+its grid-forming and supporting capabilities, and inherent ability to limit the
+converter's current. Then, the mathematical modeling of the voltage source
+converter (VSC), together with its output filter and controllers enabling the 
+VSM capabilities, is discussed. Different synchronous generator models - 2-axis,
+1-axis, and classical - together with a virtual excitation system is proposed for 
+generating the reference signals for the converter.
+
+Simulation results in the WECC-9 bus system, reveal that while the 2-axis model
+offers an additional degree of freedom through the parameter $X_q'$, its impact
+on the system dynamics is minimal and can be overlooked. Conversely, the
+parameter $X_d'$ in the 1-axis model is shown to have a significant effect on
+system behavior, making the 1-axis model more appropriate for VSM applications
+aimed at emulating synchronous generator dynamics. The findings suggest that the
+2-axis model may introduce unnecessary complexity without tangible benefits, and
+the classical model may oversimplify the dynamics.
+
+In conclusion, this thesis advocates for the adoption of the 1-axis synchronous
+generator model within the cascaded VSM framework to effectively replicate the
+dynamics of traditional generators. This approach not only simplifies the VSM
+design but also substantially contributes to the stability and reliability of
+power systems undergoing rapid integration of renewable energy sources.
+
+\end{eabstract}

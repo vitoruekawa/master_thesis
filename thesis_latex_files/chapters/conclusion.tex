@@ -1,0 +1,71 @@
+\chapter{Conclusion and Future Work}
+This thesis investigated the integration of renewable energy sources into power
+systems, focusing on the challenge of decreased system inertia due to the
+replacement of synchronous generators with inverter-based resources. The
+adoption of grid-forming control strategies, particularly the Virtual
+Synchronous Machine (VSM), was analyzed as a potential solution to emulate the
+dynamics of traditional generators and maintain system stability.
+
+Among various VSM topologies, the cascaded VSM was identified as the optimal
+choice due to its grid-forming and supporting capabilities, and current
+limiting features. The thesis compared the effectiveness of using different
+synchronous generator models—2-axis, 1-axis, and classical models—to generate
+reference signals for the VSM.
+
+The simulation results revealed that the 2-axis model, despite offering an
+additional parameter ($X_q'$), does not significantly impact system dynamics,
+making its added complexity unnecessary. Conversely, the parameter $X_d'$ in the
+1-axis model was found to have a substantial effect on system behavior. As a
+result, the 1-axis model is recommended for VSM implementation when the goal is
+to accurately replicate synchronous generator dynamics. The classical model, due
+to its oversimplified nature, may not adequately capture the required dynamics.
+
+In conclusion, this thesis supports the use of the 1-axis synchronous generator
+model within the cascaded VSM framework for enhancing the dynamic response of
+power systems with high renewable energy penetration. This approach simplifies
+the VSM design while effectively emulating the inertia and damping
+characteristics of conventional generators, contributing to the stability and
+reliability of modern power systems. As an extension of this thesis, the
+following topics are outlined:
+
+\begin{itemize}
+    \item \textbf{Passive and active damping:} investigating passive and active
+    damping techniques within the VSM framework can further enhance system
+    stability, particularly in damping out oscillations following disturbances.
+    Passive damping involves inherent system design features, whereas active
+    damping employs control strategies to dynamically adjust system parameters
+    in response to oscillations. Future work could focus on optimizing these
+    damping mechanisms to improve system robustness against a wide range of
+    disturbances.
+    \item \textbf{Load sharing capability:} a critical aspect of integrating
+    multiple VSMs into the power grid is their ability to share load effectively
+    and maintain system balance. Future studies could explore advanced control
+    strategies that enable precise and equitable load sharing among VSMs, taking
+    into account their dynamic capabilities and constraints. This research could
+    also include the development of algorithms for real-time load distribution
+    in response to changing grid conditions.
+    \item \textbf{Detailed modeling of DC-source:} a critical aspect of
+    integrating multiple VSMs into the power grid is their ability to share load
+    effectively and maintain system balance. Future studies could explore
+    advanced control strategies that enable precise and equitable load sharing
+    among VSMs, taking into account their dynamic capabilities and constraints.
+    This research could also include the development of algorithms for real-time
+    load distribution in response to changing grid conditions.
+    \item \textbf{Studies on other Grid Forming control methods:} while this
+    thesis focused on the VSM approach, other grid-forming control methods offer
+    potential benefits for integrating renewable energy sources into power
+    systems. Future research could involve a comprehensive comparison of various
+    grid-forming control strategies, evaluating their performance, scalability,
+    and suitability for different grid configurations. This comparative analysis
+    would help in identifying the most effective control solutions for ensuring
+    grid stability and reliability in the face of increasing renewable
+    penetration.
+\end{itemize}
+
+Each of these future research directions aims to build upon the findings of this
+thesis, addressing key challenges and opportunities in the integration of
+renewable energy sources and advanced control technologies into power systems.
+
+
+
+
